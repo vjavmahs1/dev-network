@@ -1,7 +1,12 @@
 
 const express = require('express');
+const connectDB = require('./config/db');
 
 const app = express();
+
+//Connect Databe ;
+
+connectDB();
 
 const PORT = process.env.PORT || 4000;
 
