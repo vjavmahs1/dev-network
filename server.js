@@ -21,7 +21,7 @@ app.use('/api/profile' , require('./routes/api/profile'));
 
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 
 app.listen (PORT, () => console.log(`Server started on port ${PORT}`));
